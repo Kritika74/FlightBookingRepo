@@ -31,7 +31,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<cloudHubDeployment>
+					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
 						<username>kritika74</username>
@@ -82,12 +82,6 @@
 	</build>
 
 	<dependencies>
-		<dependency>
-			<groupId>40c6e8c2-1644-4855-bfd5-3c8e96c0b6b6</groupId>
-			<artifactId>mule-plugin-booking</artifactId>
-			<version>1.0.0</version>
-			<classifier>mule-plugin</classifier>
-		</dependency>
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
 			<artifactId>mule-http-connector</artifactId>
